@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+      let array1=[2,"ali",80,"ahmad","pouya",12]
+   let number;
+   let str;
+let jadid
+
+number=   array1.filter(function(value){
+return typeof value=="number";
+   })
+   console.log(number);
+
+
+   str=   array1.filter(function(value){
+return typeof value=="string";
+   })
+   console.log(str);
+   
+  jadid= str.concat(number);
+  console.log(jadid);
+  
+  
+
+
+  
+    </script>
+</head>
+<body>
+
+</body>
+</html>
